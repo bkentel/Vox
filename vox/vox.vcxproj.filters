@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\common\common.cpp" />
+    <ClCompile Include="src\system\window\windows\NativeWindowImpl.cpp" />
+    <ClCompile Include="src\system\window\NativeWindow.cpp" />
+    <ClCompile Include="src\test\test_main.cpp" />
+    <ClCompile Include="src\system\window\windows\test\test_native_window_impl.cpp" />
+    <ClCompile Include="src\system\window\test\test_native_window.cpp" />
+    <ClCompile Include="src\renderer\renderer.cpp" />
+    <ClCompile Include="src\gl\gltraits.cpp" />
+    <ClCompile Include="src\gl\vgl.cpp" />
+    <ClCompile Include="src\gl\wrappedgl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common\common.hpp" />
+    <ClInclude Include="src\common\exception.hpp" />
+    <ClInclude Include="src\common\config.hpp" />
+    <ClInclude Include="src\system\window\NativeWindow.hpp" />
+    <ClInclude Include="src\system\window\windows\NativeWindowImpl.hpp" />
+    <ClInclude Include="src\common\gl.hpp" />
+    <ClInclude Include="src\common\lua.hpp" />
+    <ClInclude Include="src\common\system.hpp" />
+    <ClInclude Include="src\renderer\renderer.hpp" />
+    <ClInclude Include="src\util\blockingQueue.hpp" />
+    <ClInclude Include="src\util\rect.hpp" />
+    <ClInclude Include="src\gl\wrappedgl.hpp" />
+    <ClInclude Include="src\gl\gltraits.hpp" />
+    <ClInclude Include="src\gl\vgl.hpp" />
+    <ClInclude Include="src\util\util.hpp" />
+  </ItemGroup>
+</Project>
